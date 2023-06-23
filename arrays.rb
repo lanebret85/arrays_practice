@@ -29,3 +29,8 @@ puts running_distances[2]
 
 # below should print: false
 puts true_or_false[3]
+
+
+# .shuffle will randomly assign new index positions to the elements in your array
+# below should print the elements of dollar_amounts in a different order
+puts dollar_amounts.shuffle
