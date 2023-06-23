@@ -18,10 +18,14 @@ running_distances.shift
 # .unshift will add elements to the beginning of the array
 true_or_false.unshift(false)
 
-puts fruits
+# below should print: "apples"
+puts fruits[0]
 
-puts dollar_amounts
+# below should print: 100
+puts dollar_amounts[-1]
 
-puts running_distances
+# below should print: 26.2
+puts running_distances[2]
 
-puts true_or_false
+# below should print: false
+puts true_or_false[3]
